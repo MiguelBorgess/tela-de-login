@@ -1,0 +1,87 @@
+*{margin:0;
+padding:0;
+box-sizing: border-box;
+font-family:Helvetica;
+color:#323232;
+border:none;}
+
+body{
+    background-image:url(./assets/Capa.png);
+    background-size: cover;
+    
+}
+
+a img {width:50px;
+height:50px;}
+
+textarea:focus,input:focus{
+    outline:none;}
+
+a,label {
+    font-size:1rem;
+}
+
+a:hover{
+    color:blue;
+}
+
+#back {
+    background-color:rgb(255, 255, 255);
+    width:400px;
+    height:450px;
+    margin:auto;
+    padding:30px 30px;
+    margin-top: 10vh;
+    border-radius:8px;
+    text-align: center;
+}
+
+#email {width:100%;
+height:40px;}
+
+#password {width:100%;
+height:40px;}
+
+form{
+    margin-top: 2px;
+}
+label,input{display:block;
+text-align: left;}
+
+label{font-weight:bold;}
+
+input{border-bottom: 2px solid black;
+padding:5px;
+margin:7px;
+font-size: 1rem;}
+
+input:focus{
+    border-bottom-color: rgb(0, 0, 255);
+}
+#login{border-bottom: none;
+    background-color:rgb(23, 23, 202);
+    border-radius:15px;
+    margin:auto;
+    margin-top:15px;
+    margin-bottom: 2px;
+    color:white;
+    width:100%;
+    height:28px;
+    font:normal 16px Helvetica;
+    text-align:center;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor:pointer;
+}
+
+#login:hover{background-color: rgb(3, 3, 100);
+transition:.3s}
+
+p{margin:15px;
+font-weight: bold;
+font-size: 1rem;}
+
+#forgotpass {text-align:right;
+display:block;}
+
+#register {font-size: 1rem;}
